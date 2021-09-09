@@ -53,7 +53,7 @@ def predict():
     predicated_price1 =life_insurance_prediction(model,Entity, Year)
     predicated_price = round(predicated_price1, 2)
 
-    return render_template("index.html", prediction_text="Predicated price of bangalore House is {} RS".format(predicated_price))
+    return render_template("index.html", prediction_text="life expectancy of state is {}".format(predicated_price))
 
 
 if __name__ == "__main__":
